@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router';
 
-const PostItemList = ({title, categories}) => (
-  <a href="#" className="list-group-item">
-    <h4 className="list-group-item-heading">{title}</h4>
-    <p className="list-group-item-text">{categories}</p>
-  </a>
+const PostItemList = ({id, title, categories}) => (
+  <Link to={`/post/${id}`} className="list-group-item">
+    <span className="pull-right">{categories}</span>
+    <strong>{title}</strong>
+  </Link>
 );
 
 // PostItemList.propTypes = {

@@ -1,6 +1,7 @@
 .col-center {
   float: none;
   margin: 0 auto;
+  margin-bottom: 35px;
 }
 .footer {
   background: #F8F8F8;
