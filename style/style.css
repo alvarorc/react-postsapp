@@ -1,0 +1,21 @@
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+.footer {
+  background: #F8F8F8;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+span.error {
+  color: darkred;
+  margin-top: 10px;
+}
+.btn-addPost {
+  width: 80px;
+  float: right;
+}
+.control-label.title {
+  text-transform: capitalize;
+}
